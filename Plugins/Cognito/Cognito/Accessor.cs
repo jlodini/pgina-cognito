@@ -7,8 +7,6 @@ using pGina.Shared.Types;
 using log4net;
 using System.Text;
 
-using Amazon.CognitoIdentityProvider;
-using Amazon.CognitoIdentityProvider.Model;
 
 namespace pGina.Plugin.Cognito
 {

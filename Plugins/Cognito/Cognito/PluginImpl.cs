@@ -65,7 +65,7 @@ namespace pGina.Plugin.Cognito
             // this method shall say if our credentials are valid
             UserInformation userInfo = properties.GetTrackedSingle<UserInformation>();
 
-            return CognitoAccessor.getResponse(userInfo.Username, userInfo.Password);
+            return Cognito.getResponse(userInfo.Username, userInfo.Password);
         }
 
         public BooleanResult AuthenticatedUserGateway(SessionProperties properties)
